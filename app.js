@@ -60,6 +60,6 @@ const displayLoadData = (books) =>{
 // search Items number
 const displayAllItem = (itemLength) =>{
     const displayNumbers = document.getElementById('search-numbers');
-    displayNumbers.innerText = `Search Item Number : ${itemLength}`;
+    displayNumbers.innerText = `Search Item Number : ( ${itemLength} )`;
     displayNumbers.style.display = 'block';
 };
