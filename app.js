@@ -35,7 +35,7 @@ const displayLoadData = (books) =>{
     const searchResult = document.getElementById('search-result');
     searchResult.textContent = '';
 
-    if(showBooks.length === 0 || showBooks === ''){
+    if(showBooks.length === 0){
       const emptyValue =  document.getElementById('empty-value');
       emptyValue.style.display = 'block';
       toggoleSpinner('none');
